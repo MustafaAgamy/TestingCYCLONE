@@ -21,7 +21,7 @@ public class BaseTest {
     protected void setUp() {
         driver = new CYCLONE.WebDriver();
         driver.browserAction().navigateToURL();
-        returnVodHome();
+        demoNopHomePage = new DemoNopHomePage(driver);
     }
 
     public VodHomePage returnVodHome(){
