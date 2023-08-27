@@ -1,0 +1,49 @@
+[INFO ] 2023-07-19 13:22:02.942 [main] LoggingManager - 
+=====================================================================================================================================================
+                                                            Starting CYCLONE v1.0
+=====================================================================================================================================================
+[INFO ] 2023-07-19 13:22:02.947 [main] LoggingManager - 
+                                                            STARTING EXECUTION OF SUITE:
+                                                            Name: Main_Test_Suite || TCs No. : 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-07-19 13:22:02.950 [main] LoggingManager - 
+                                                            CLEAR_ALLURE_REPORT_FOLDER is set to: true
+                                                            AUTO_CLEAR_LOGFILE is set to: true
+                                                            AUTO_OPEN_ALLURE_REPORT is set to: false
+                                                            AUTO_OPEN_EXTENT_REPORT is set to: false
+ConfigurationFile:
+D:/Automation/MyTemplateFiles/TestingModulesFolder/TestingFrameworkJar/src/main/resources/properties/reporting.properties
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-07-19 13:22:02.962 [main] LoggingManager - 
+                                                            STARTING EXECUTION OF TEST:
+                                                            Name: VodafoneTest
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-07-19 13:22:03.041 [main] LoggingManager - 
+                                                            Executing The Configuration Method: 
+                                                            Name: setUp
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-07-19 13:22:09.950 [main] LoggingManager - 
+                                                            Successfully Setup: CHROME DRIVER
+[INFO ] 2023-07-19 13:22:10.258 [main] LoggingManager - 
+                                                            Setting Window Size to : Maximize
+[INFO ] 2023-07-19 13:22:19.297 [main] LoggingManager - 
+                                                            Navigating to Url: https://eshop.vodafone.com.eg/shop/null
+[INFO ] 2023-07-19 13:22:20.731 [main] LoggingManager - 
+                                                            STARTING EXECUTION OF THE FOLLOWING:
+                                                            Method: E2ETest || Class: VodafoneE2ETest
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-07-19 13:22:20.821 [main] LoggingManager - Clicking on element -> By.className: lang
+[INFO ] 2023-07-19 13:22:21.652 [main] LoggingManager - Clicking on element -> By.xpath: //li[7]//a[@id='shopByBrandCard']
+[INFO ] 2023-07-19 13:22:35.213 [main] LoggingManager - Clicking on element -> Show more >> By.xpath: //button[@class='btn btn-grey productList-button']
+[INFO ] 2023-07-19 13:22:37.629 [main] LoggingManager - Clicking on element -> By.xpath: //*[@id="home-0"]/div/ul/li[22]
+[ERROR] 2023-07-19 13:23:02.259 [main] LoggingManager - clickProceed -> click -> By.xpath: //div[@class='cart_checkout fontLightEnAr']//button[@class='btn btn-red']
+[INFO ] 2023-07-19 13:23:03.048 [main] LoggingManager - 
+                                                            Executing The Configuration Method: 
+                                                            Name: tearDown
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-07-19 13:23:03.746 [main] LoggingManager - 
+                                                            Successfully Quit The Driver
+[INFO ] 2023-07-19 13:23:03.754 [main] LoggingManager - 
+                                                            FINISHED EXECUTION OF TEST:
+                                                            Name: VodafoneTest
+-----------------------------------------------------------------------------------------------------------------------------------------------------
